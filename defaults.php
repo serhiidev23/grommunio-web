@@ -620,7 +620,7 @@ if (!defined("MAX_FTS_RESULT_ITEMS")) {
  * The following options are taken from the debug.php
  */
 if (!defined("DEBUG_LOADER")) {
-	define("DEBUG_LOADER", LOAD_RELEASE);
+	define("DEBUG_LOADER", LOAD_SOURCE);
 }
 if (!defined("DEBUG_JSONOUT")) {
 	define("DEBUG_JSONOUT", false);
