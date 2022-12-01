@@ -184,6 +184,7 @@ Zarafa.common.ui.HtmlEditor = Ext.extend(Ext.ux.form.TinyMCETextArea, {
 
 		// Hack alert !
 		// hide the Cell menu item from table menu item.
+		console.log(tinymceEditor)
 		var tableMenu = tinymceEditor.buttons.table.menu;
 		Ext.each(tableMenu, function(menu, i) {
 			if(menu.text === 'Cell') {
