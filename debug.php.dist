@@ -13,7 +13,7 @@ define("DEBUG_JSONOUT", true);
 define("DEBUG_JSONOUT_DIR", "debug_xml/");
 define("DEBUG_JSONOUT_GZIP", false);
 define("DEBUG_PLUGINS", true);
-define("DEBUG_PLUGINS_DISABLE_CACHE", false);
+define("DEBUG_PLUGINS_DISABLE_CACHE", true);
 
 // dump file, must be writable
 define("DEBUG_DUMP_FILE", TMP_PATH . "/debug.txt");
